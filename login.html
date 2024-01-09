@@ -20,33 +20,33 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
-        <a class="navbar-brand fs-3" href="#"><img src="img/logo.jpg" alt="LOGO" class="w-25" />運動揪團網</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
-            <li class="nav-item">
-              <a class="nav-link" href="#">球團報名</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">場地資訊</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">討論區</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">商城</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav me-5 mb-2 mb-lg-0 fs-4">
-            <li class="nav-item">
-              <a class="nav-link" href="login.html"><i class="fa-regular fa-circle-user"></i> 登入</a>
-            </li>
-          </ul>
-        </div>
+      <a class="navbar-brand fs-3" href="#"><img src="img/logo.jpg" alt="LOGO" class="w-25" />運動揪團網</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#">球團報名</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">場地資訊</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">討論區</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">商城</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0 fs-4">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fa-regular fa-circle-user"></i> 登入</a>
+          </li>
+        </ul>
       </div>
+    </div>
   </nav>
   <!-- Main -->
   <main>
@@ -56,8 +56,8 @@
           <form action="#" method="#" class="login-form m-5 ">
             <div class="mb-3">
               <label for="account" class="form-label">帳號</label>
-              <input type="text" class="form-control" id="account" placeholder="帳號或Email" name="account" maxlength="50"
-                required>
+              <input type="text" class="form-control" id="account" placeholder="帳號或Email" name="account" minlength="6"
+                maxlength="50" required>
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">密碼</label>
@@ -71,16 +71,22 @@
             <div class="d-grid gap-2">
               <button type="submit" class="btn btn-primary">登入</button>
             </div>
-            <div class="SSO d-flex justify-content-around mt-3">
-              <a href="#"><img
-                  src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png"
-                  class="sso-img" alt="Facebook" /></a>
-              <a href="#"><img
-                  src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-256.png"
-                  alt="Google" class="sso-img" /></a>
-              <a href="#"><img
-                  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/200_Line_logo_logos-256.png"
-                  alt="Line" class="sso-img" /></a>
+            <div class="SSO d-flex justify-content-center mt-3">
+              <div class="px-2">
+                <a href="#"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png"
+                    class="sso-img" alt="Facebook" /></a>
+              </div>
+              <div class="px-2">
+                <a href="#"><img
+                    src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-256.png"
+                    alt="Google" class="sso-img" /></a>
+              </div>
+              <div class="px-2">
+                <a href="#"><img
+                    src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/200_Line_logo_logos-256.png"
+                    alt="Line" class="sso-img" /></a>
+              </div>
             </div>
             <div id="login-no-account mb-5">
               <div class="login-new-content d-flex justify-content-center mt-3">
